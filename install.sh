@@ -42,7 +42,6 @@ downloadUrl="https://github.com/oct8l/csgo-server-launcher/releases/download/v$v
 scriptName="csgo-server-launcher"
 scriptPath="/etc/init.d/$scriptName"
 confPath="/etc/csgo-server-launcher/csgo-server-launcher.conf"
-customizeScriptsPath="/etc/csgo-server-launcher"
 steamcmdPath="/var/steamcmd"
 user="steam"
 ipAddress=$(hostname -I)

@@ -15,7 +15,7 @@ For usage and info, check the README in the [docker](https://github.com/oct8l/cs
 A script is available to perform an installation with a single command:
 
 ```
-$ sudo curl -sSLk https://github.com/oct8l/csgo-server-launcher/releases/download/v1.14.1/install.sh | sudo bash
+$ sudo curl -sSLk https://raw.githubusercontent.com/oct8l/csgo-server-launcher/master/install.sh | sudo bash
 ```
 
 This should output something like this:

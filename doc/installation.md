@@ -52,11 +52,11 @@ Or you can install it manually as root or sudoer:
 $ dpkg --add-architecture i386
 $ apt-get update
 $ apt-get install -y -q libc6-i386 lib32stdc++6 lib32gcc1 lib32ncurses5 lib32z1 curl gdb screen tar wget
-$ curl -sSLk https://raw.githubusercontent.com/oct8l/csgo-server-launcher/master//csgo-server-launcher.sh -o /etc/init.d/csgo-server-launcher
+$ curl -sSLk https://raw.githubusercontent.com/oct8l/csgo-server-launcher/master/csgo-server-launcher.sh -o /etc/init.d/csgo-server-launcher
 $ chmod +x /etc/init.d/csgo-server-launcher
 $ update-rc.d csgo-server-launcher defaults
 $ mkdir -p /etc/csgo-server-launcher/
-$ curl -sSLk https://raw.githubusercontent.com/oct8l/csgo-server-launcher/master//csgo-server-launcher.conf -o /etc/csgo-server-launcher/csgo-server-launcher.conf
+$ curl -sSLk https://raw.githubusercontent.com/oct8l/csgo-server-launcher/master/csgo-server-launcher.conf -o /etc/csgo-server-launcher/csgo-server-launcher.conf
 ```
 
 > :warning: Replace lib32ncurses5 with lib32ncurses6 on Debian buster based distros

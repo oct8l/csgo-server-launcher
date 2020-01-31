@@ -348,6 +348,9 @@ function create {
     echo quit | ${DIR_STEAMCMD}/steamcmd.sh
   fi
 
+  touch "/var/steamcmd/games/csgo/csgo/cfg/autoexec.cfg"
+  echo "autoexec now available at /var/steamcmd/games/csgo/csgo/cfg"
+
   # Done installing steamcmd, install the server
   echo "Done installing steamcmd. Installing the game"
   echo "This will take a while"

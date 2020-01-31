@@ -1,20 +1,21 @@
 ## Installation
 
-* [Docker](#docker)
-* [Install script](#install-script)
-* [Manual](#manual)
+- [Installation](#installation)
+- [Docker](#docker)
+- [Install script](#install-script)
+- [Manual](#manual)
 
 ## Docker
 
 An [official docker image](https://hub.docker.com/r/crazymax/csgo-server-launcher/) 🐳 is available for CSGO Server Launcher.<br />
-For usage and info, check the README in the [docker](https://github.com/crazy-max/csgo-server-launcher/tree/master/docker) folder.
+For usage and info, check the README in the [docker](https://github.com/oct8l/csgo-server-launcher/tree/master/docker) folder.
 
 ## Install script
 
 A script is available to perform an installation with a single command:
 
 ```
-$ sudo curl -sSLk https://github.com/crazy-max/csgo-server-launcher/releases/download/v1.14.1/install.sh | sudo bash
+$ sudo curl -sSLk https://github.com/oct8l/csgo-server-launcher/releases/download/v1.14.1/install.sh | sudo bash
 ```
 
 This should output something like this:
@@ -51,11 +52,11 @@ Or you can install it manually as root or sudoer:
 $ dpkg --add-architecture i386
 $ apt-get update
 $ apt-get install -y -q libc6-i386 lib32stdc++6 lib32gcc1 lib32ncurses5 lib32z1 curl gdb screen tar wget
-$ curl -sSLk https://github.com/crazy-max/csgo-server-launcher/releases/download/v1.14.1/csgo-server-launcher.sh -o /etc/init.d/csgo-server-launcher
+$ curl -sSLk https://github.com/oct8l/csgo-server-launcher/releases/download/v1.14.1/csgo-server-launcher.sh -o /etc/init.d/csgo-server-launcher
 $ chmod +x /etc/init.d/csgo-server-launcher
 $ update-rc.d csgo-server-launcher defaults
 $ mkdir -p /etc/csgo-server-launcher/
-$ curl -sSLk https://github.com/crazy-max/csgo-server-launcher/releases/download/v1.14.1/csgo-server-launcher.conf -o /etc/csgo-server-launcher/csgo-server-launcher.conf
+$ curl -sSLk https://github.com/oct8l/csgo-server-launcher/releases/download/v1.14.1/csgo-server-launcher.conf -o /etc/csgo-server-launcher/csgo-server-launcher.conf
 ```
 
 > :warning: Replace lib32ncurses5 with lib32ncurses6 on Debian buster based distros

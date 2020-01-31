@@ -38,7 +38,7 @@ fi
 ### Vars
 distribVersion=$(sed 's/\..*//' /etc/debian_version)
 version=1.14.1
-downloadUrl="https://github.com/crazy-max/csgo-server-launcher/releases/download/v$version"
+downloadUrl="https://github.com/oct8l/csgo-server-launcher/releases/download/v$version"
 scriptName="csgo-server-launcher"
 scriptPath="/etc/init.d/$scriptName"
 confPath="/etc/csgo-server-launcher/csgo-server-launcher.conf"

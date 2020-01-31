@@ -122,7 +122,7 @@ fi
 echo "Creating $steamcmdPath folder..."
 mkdir -p "$steamcmdPath"
 chown -R ${user}. "$steamcmdPath"
-touch "$steamcmdPath/csgo/cfg/autoexec.cfg"
+touch "$steamcmdPath/games/csgo/csgo/cfg/autoexec.cfg"
 
 echo "Updating USER in config file..."
 sed "s#USER=\"steam\"#USER=\"$user\"#" -i "$confPath" 1>nul
@@ -138,7 +138,7 @@ echo "Done!"
 echo ""
 
 echo "DO NOT FORGET to edit the configuration in '$confPath'"
-echo "You can add to the autoexec at $steamcmdPath/csgo/cfg/autexec.cfg"
+echo "You can add to the autoexec at $steamcmdPath/games/csgo/csgo/cfg/autoexec.cfg"
 echo "Then type:"
 echo "  '$scriptPath create' to install steam and csgo"
 echo "  '$scriptPath start' to start the csgo server!"

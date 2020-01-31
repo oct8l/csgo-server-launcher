@@ -138,6 +138,7 @@ echo "Done!"
 echo ""
 
 echo "DO NOT FORGET to edit the configuration in '$confPath'"
+echo "You can add to the autoexec at $steamcmdPath/csgo/cfg/autexec.cfg"
 echo "Then type:"
 echo "  '$scriptPath create' to install steam and csgo"
 echo "  '$scriptPath start' to start the csgo server!"
